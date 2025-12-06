@@ -7,22 +7,22 @@ export default function Home() {
       <h1 className="text-4xl font-bold mb-4">Todo AI App</h1>
 
       <p className="text-lg text-gray-600 max-w-md mb-6">
-        Quản lý công việc thông minh với AI. Đăng ký hoặc đăng nhập để bắt đầu.
+        Welcome to the Todo AI App! Use the buttons below to get started.
       </p>
 
       <div className="flex gap-4">
         <Link
-          href="/register"
-          className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg"
-        >
-          Đăng ký
-        </Link>
-
-        <Link
           href="/login"
           className="px-6 py-3 bg-gray-800 hover:bg-gray-900 text-white rounded-lg"
         >
-          Đăng nhập
+          Login
+        </Link>
+        
+        <Link
+          href="/register"
+          className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg"
+        >
+          Register
         </Link>
       </div>
     </main>
